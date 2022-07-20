@@ -7,11 +7,11 @@ Rails.application.routes.draw do
       resources :products
 
       root to: "users#index"
-    end
+  end
+  resources :products
   get 'cart', to: 'cart#show'
   post 'cart/add'
   post 'cart/remove'
-  resources :products
 
   root "products#index"
 end

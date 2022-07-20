@@ -1,24 +1,28 @@
 <div id="<%= dom_id product %>">
-  <div style="display:flex;justify-content:space-between;margin: 0em 5em;">
-    <p>
-      <strong>Name:</strong>
-      <%= product.name %>
-    </p>
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Name:</strong>
+    <%= product.name %>
+  </p>
 
-    <p>
-      <strong>Description:</strong>
-      <%= product.description %>
-    </p>
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Description:</strong>
+    <%= product.description %>
+  </p>
 
-    <p>
-      <strong>Price:</strong>
-      <%= product.price %>
-    </p>
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Price:</strong>
+    <%= product.price %>
+  </p>
 
-    <%= form_with(url: cart_add_path) do |f| %>
-      <%= f.hidden_field :id, value: product.id %>
-      <%= f.number_field :quantity, value: 0, min: 1 %>
-      <%= f.submit "Add to cart" %>
-    <% end %>
-  </div>
+  <%= form_with(url: cart_add_path, class: "contents my-5") do |f| %>
+    <%= f.hidden_field :id, value: product.id %>
+    <%= f.number_field :quantity, value: 0, min: 1, class: "block font-medium mb-1" %>
+    <%= f.submit "Add to cart", class: "rounded-lg py-3 px-5 bg-gray-100 font-medium" %>
+  <% end %>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this product", product, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to 'Edit this product', edit_product_path(product), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
 </div>
