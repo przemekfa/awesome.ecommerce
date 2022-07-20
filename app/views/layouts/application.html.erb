@@ -18,7 +18,6 @@
       <%= render partial: "cart/cart" if @render_cart%>
 
       <%= link_to "Home", root_path %>
-      <%= link_to "Dashboard", static_pages_dashboard_path %>
 
       <% if current_user %>
         <%= current_user.email %>

@@ -1,10 +1,17 @@
 Rails.application.routes.draw do
+  devise_for :users
+  namespace :admin do
+      resources :users
+      resources :carts
+      resources :orderables
+      resources :products
+
+      root to: "users#index"
+    end
   get 'cart', to: 'cart#show'
   post 'cart/add'
   post 'cart/remove'
   resources :products
-  devise_for :users
-  get 'static_pages/landing_page'
-  get 'static_pages/dashboard'
-  root "static_pages#landing_page"
+
+  root "products#index"
 end
