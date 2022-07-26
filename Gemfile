@@ -49,7 +49,7 @@ gem "bootsnap", require: false
 # gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
+gem "image_processing", "~> 1.2"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -75,5 +75,20 @@ group :test do
   gem "webdrivers"
 end
 
+# Authentication
 gem 'devise', github: 'heartcombo/devise', branch: 'main'
-gem "administrate"
+
+# Payments [https://github.com/pay-rails/pay]
+gem "pay", "~> 4.0"
+
+# To use Stripe, also include:
+gem "stripe", "~> 6.0"
+
+# To use Braintree + PayPal, also include:
+gem "braintree", "~> 4.7"
+
+# To use Paddle, also include:
+gem "paddle_pay", "~> 0.2"
+
+# To use Receipts gem for creating invoice and receipt PDFs, also include:
+gem "receipts", "~> 2.0"

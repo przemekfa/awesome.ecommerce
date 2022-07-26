@@ -40,7 +40,6 @@
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v7.0.3.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v7.0.3.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.0, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="administrate (v0.17.0, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.2, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.18, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, RVM: ruby-3.0.4) [gem]" level="application" />
@@ -51,7 +50,6 @@
     <orderEntry type="library" scope="PROVIDED" name="childprocess (v4.1.0, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.10, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="datetime_picker_rails (v0.0.7, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.6.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.8.1@6d32d2, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="digest (v3.1.0, RVM: ruby-3.0.4) [gem]" level="application" />
@@ -59,23 +57,19 @@
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.5, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.0.0, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.12.0, RVM: ruby-3.0.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="image_processing (v1.12.2, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="importmap-rails (v1.1.5, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.5.11, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.4.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.5, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.5.0, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="kaminari (v1.2.2, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="kaminari-actionview (v1.2.2, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="kaminari-activerecord (v1.2.2, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="kaminari-core (v1.2.2, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.18.0, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="marcel (v1.0.2, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="matrix (v0.4.2, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, RVM: ruby-3.0.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_magick (v4.11.0, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.2, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.16.2, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="momentjs-rails (v2.29.1.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.5.3, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-imap (v0.2.3, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-protocol (v0.1.3, RVM: ruby-3.0.4) [gem]" level="application" />
@@ -106,10 +100,8 @@
     <orderEntry type="library" scope="PROVIDED" name="rubocop-ast (v1.19.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-performance (v1.13.3, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.11.0, RVM: ruby-3.0.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-vips (v2.1.4, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sassc (v2.4.0, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sassc-rails (v2.1.2, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="selectize-rails (v0.12.6, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.3.0, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.1.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, RVM: ruby-3.0.4) [gem]" level="application" />
@@ -118,7 +110,6 @@
     <orderEntry type="library" scope="PROVIDED" name="strscan (v3.0.3, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tailwindcss-rails (v2.0.10, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v1.2.1, RVM: ruby-3.0.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.10, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="timeout (v0.3.0, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbo-rails (v1.1.1, RVM: ruby-3.0.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.4, RVM: ruby-3.0.4) [gem]" level="application" />
@@ -142,23 +133,6 @@
         <option value="active_record:application_record" />
         <option value="active_record:devise" />
         <option value="active_record:multi_db" />
-        <option value="administrate:assets" />
-        <option value="administrate:assets:javascripts" />
-        <option value="administrate:assets:stylesheets" />
-        <option value="administrate:dashboard" />
-        <option value="administrate:field" />
-        <option value="administrate:install" />
-        <option value="administrate:routes" />
-        <option value="administrate:view" />
-        <option value="administrate:views" />
-        <option value="administrate:views:edit" />
-        <option value="administrate:views:field" />
-        <option value="administrate:views:form" />
-        <option value="administrate:views:index" />
-        <option value="administrate:views:layout" />
-        <option value="administrate:views:navigation" />
-        <option value="administrate:views:new" />
-        <option value="administrate:views:show" />
         <option value="application_record" />
         <option value="benchmark" />
         <option value="channel" />
@@ -175,8 +149,6 @@
         <option value="integration_test" />
         <option value="jbuilder" />
         <option value="job" />
-        <option value="kaminari:config" />
-        <option value="kaminari:views" />
         <option value="mailbox" />
         <option value="mailer" />
         <option value="migration" />
@@ -187,8 +159,6 @@
         <option value="responders_controller" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
-        <option value="scss:assets" />
-        <option value="scss:scaffold" />
         <option value="stimulus" />
         <option value="system_test" />
         <option value="task" />
@@ -204,23 +174,6 @@
         <option value="active_record:application_record" />
         <option value="active_record:devise" />
         <option value="active_record:multi_db" />
-        <option value="administrate:assets" />
-        <option value="administrate:assets:javascripts" />
-        <option value="administrate:assets:stylesheets" />
-        <option value="administrate:dashboard" />
-        <option value="administrate:field" />
-        <option value="administrate:install" />
-        <option value="administrate:routes" />
-        <option value="administrate:view" />
-        <option value="administrate:views" />
-        <option value="administrate:views:edit" />
-        <option value="administrate:views:field" />
-        <option value="administrate:views:form" />
-        <option value="administrate:views:index" />
-        <option value="administrate:views:layout" />
-        <option value="administrate:views:navigation" />
-        <option value="administrate:views:new" />
-        <option value="administrate:views:show" />
         <option value="application_record" />
         <option value="benchmark" />
         <option value="channel" />
@@ -237,8 +190,6 @@
         <option value="integration_test" />
         <option value="jbuilder" />
         <option value="job" />
-        <option value="kaminari:config" />
-        <option value="kaminari:views" />
         <option value="mailbox" />
         <option value="mailer" />
         <option value="migration" />
@@ -249,8 +200,6 @@
         <option value="responders_controller" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
-        <option value="scss:assets" />
-        <option value="scss:scaffold" />
         <option value="stimulus" />
         <option value="system_test" />
         <option value="task" />
