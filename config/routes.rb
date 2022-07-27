@@ -1,7 +1,13 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :products
+  resources :products do
+    member do
+      delete :delete_picture
+    end
+  end
   resources :groups
+
+
   get 'cart', to: 'cart#show'
   post 'cart/add'
   post 'cart/remove'

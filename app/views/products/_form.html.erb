@@ -28,11 +28,16 @@
 
   <div class="my-5">
     <%= form.label :main_image %>
+    <%= image_tag(product.main_image_as_thumbnail, alt: "No Image") if product.main_image.attached? %>
     <%= form.file_field :main_image %>
   </div>
 
   <div class="my-5">
     <%= form.label :pictures %>
+    <% product.pictures.each do |picture| %>
+      <%= image_tag(product.picture_as_thumbnail(picture), alt: "No Image") %>
+      <%= link_to 'Remove', delete_picture_product_url(picture.id), data: {  "turbo-method": :delete, confirm: 'Are you sure?' } %>
+    <% end %>
     <%= form.file_field :pictures, multiple: true %>
   </div>
 

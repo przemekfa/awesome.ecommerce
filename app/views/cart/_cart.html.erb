@@ -1,5 +1,7 @@
 <%= turbo_frame_tag "cart" do %>
-  <h1>Cart</h1>
+  <div class="flex justify-between items-center">
+    <%= link_to "Cart", cart_path(@cart), class: "rounded-lg py-3 px-5 bg-blue-600 text-white  block font-medium" %>
+  </div>
   <% if @cart.orderables.count > 0 %>
     <%= render "cart/orderables" %>
     <p>Total: <%= @cart.total %></p>

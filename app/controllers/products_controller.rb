@@ -57,6 +57,12 @@ class ProductsController < ApplicationController
     end
   end
 
+  def delete_picture
+    pic = ActiveStorage::Attachment.find(params[:id])
+    pic.purge_later
+    redirect_back(fallback_location: products_url)
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product

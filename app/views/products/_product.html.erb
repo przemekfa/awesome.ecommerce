@@ -16,8 +16,17 @@
 
   <p class="my-5">
     <strong class="block font-medium mb-1">Image:</strong>
-    <%= link_to image_tag(product.main_image, alt: "No Image"), product.main_image %>
+    <%= link_to image_tag(product.main_image_as_thumbnail, alt: "No Image"), product.main_image if product.main_image.attached? %>
   </p>
+
+  <% if action_name == "show" && product.pictures.attached? %>
+   <p class="my-5">
+     <strong class="block font-medium mb-1">More Images:</strong>
+     <% product.pictures.each do |picture| %>
+       <%= link_to image_tag(product.picture_as_thumbnail(picture), alt: "No Image"), picture %>
+     <% end %>
+   </p>
+  <% end %>
 
   <%= form_with(url: cart_add_path, class: "contents my-5") do |f| %>
     <%= f.hidden_field :id, value: product.id %>
